@@ -1,0 +1,7 @@
+<view class="containet">
+  <image src='/images/avatar.png' class='user-avatar'></image>
+  <text class='user-name'>Hello , Jon</text>
+  <view class='kaiqi'>
+      <text url="page/about/about"class='moto'>开启之旅</text>
+  </view>
+</view>
