@@ -12,20 +12,40 @@
   </swiper>
 
 <view class='post-containet'>
-  <view class='post-author-data'>
-      <image class='post-author'src='/images/1.png'></image>
-      <text class='post-date'>Nov 20 2016</text>
-  </view>
-      <image class='post-images' src='../../images/4.png'></image>
-      <text class='post-content'>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。</text>
-
-      
-      <view class='post-like'>
-          <image class='post-like-image' src='../../images/avatar.png'></image>
+    <view class='post-author-data'>
+          <image class='post-author'src='/images/1.png'></image>
+          <text class='post-date'>Nov 20 2016</text>
+    </view>
+          <image class='post-images' src='../../images/4.png'></image>
+          <text class='post-content'>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。</text>
+    <view class='post-like'>
+          <image class='post-like-image' src='../../images/icon/read.png'></image>
           <text class='post-linke-font'>90</text>
 
-          <image class='post-like-image' src='../../images/avatar.png'></image>
+          <image class='post-like-image' src='../../images/icon/collect.png'></image>
           <text class='post-linke-font'>123</text>
 
+          <image class='post-like-image' src='../../images/icon/comment.png'></image>
+          <text class='post-linke-font'>259</text>
+    </view>
+</view>  
+
+
+<view class='post-containet'>
+  <view class='post-author-data'>
+      <image class='post-author'src='/images/1.png'></image>
+      <text class='post-date'>Nov 29 2017</text>
+  </view>
+      <image class='post-images' src='../../images/3.png'></image>
+      <text class='post-content'>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。</text>
+  <view class='post-like'>
+          <image class='post-like-image' src='../../images/icon/read.png'></image>
+          <text class='post-linke-font'>290</text>
+
+          <image class='post-like-image' src='../../images/icon/collect.png'></image>
+          <text class='post-linke-font'>352</text>
+
+          <image class='post-like-image' src='../../images/icon/comment.png'></image>
+          <text class='post-linke-font'>256</text>
       </view>
   </view>  
