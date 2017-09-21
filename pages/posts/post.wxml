@@ -1,51 +1,52 @@
 
-  <swiper indicator-dots='true' autoplay='true' interval='3000'>
+  <swiper vertical="{{false}}" indicator-dots='true' autoplay='true' interval='5000'>
       <swiper-item> 
-          <image src='/images/1.png'></image>
+          <image src='/images/post/1.png'></image>
       </swiper-item>
       <swiper-item>
-          <image src='/images/2.png'></image>
+          <image src='/images/post/2.png'></image>
       </swiper-item>
       <swiper-item>
-          <image src='/images/3.png'></image>
+          <image src='/images/post/3.png'></image>
       </swiper-item>
   </swiper>
 
 <view class='post-containet'>
     <view class='post-author-data'>
-          <image class='post-author'src='/images/1.png'></image>
-          <text class='post-date'>Nov 20 2016</text>
+          <image class='post-author'src='{{author_img}}'></image>
+          <text class='post-date'>{{date}}</text>
     </view>
-          <image class='post-images' src='../../images/4.png'></image>
-          <text class='post-content'>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。</text>
+          <image class='post-images' src='{{post_img}}'></image>
+          <text class='post-content'>{{content}}</text>
     <view class='post-like'>
           <image class='post-like-image' src='../../images/icon/read.png'></image>
-          <text class='post-linke-font'>90</text>
+          <text class='post-linke-font'>{{view_num}}</text>
 
           <image class='post-like-image' src='../../images/icon/collect.png'></image>
-          <text class='post-linke-font'>123</text>
+          <text class='post-linke-font'>{{collect_num}}</text>
 
           <image class='post-like-image' src='../../images/icon/comment.png'></image>
-          <text class='post-linke-font'>259</text>
+          <text class='post-linke-font'>{{comment}}</text>
     </view>
 </view>  
 
 
 <view class='post-containet'>
-  <view class='post-author-data'>
-      <image class='post-author'src='/images/1.png'></image>
-      <text class='post-date'>Nov 29 2017</text>
-  </view>
-      <image class='post-images' src='../../images/3.png'></image>
-      <text class='post-content'>北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。</text>
-  <view class='post-like'>
+    <view class='post-author-data'>
+          <image class='post-author'src='{{author_img}}'></image>
+          <text class='post-date'>{{date}}</text>
+    </view>
+          <image class='post-images' src='{{post_img}}'></image>
+          <text class='post-content'>{{content}}</text>
+    <view class='post-like'>
           <image class='post-like-image' src='../../images/icon/read.png'></image>
-          <text class='post-linke-font'>290</text>
+          <text class='post-linke-font'>{{view_num}}</text>
 
           <image class='post-like-image' src='../../images/icon/collect.png'></image>
-          <text class='post-linke-font'>352</text>
+          <text class='post-linke-font'>{{collect_num}}</text>
 
           <image class='post-like-image' src='../../images/icon/comment.png'></image>
-          <text class='post-linke-font'>256</text>
-      </view>
-  </view>  
+          <text class='post-linke-font'>{{comment}}</text>
+    </view>
+</view>  
+
