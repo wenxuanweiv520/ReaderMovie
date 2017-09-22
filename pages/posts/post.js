@@ -6,7 +6,7 @@ Page({
   },
 
   onLoad: function () {
-      this.data.postList = postsData.postList
-    //this.setData({posts_key: postsData.postList});
+      //this.data.postList = postsData.postList
+      this.setData({posts_key: postsData.postList});
   }
 })
