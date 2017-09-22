@@ -10,43 +10,25 @@
           <image src='/images/post/3.png'></image>
       </swiper-item>
   </swiper>
-
+<block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx"> 
 <view class='post-containet'>
     <view class='post-author-data'>
-          <image class='post-author'src='{{author_img}}'></image>
-          <text class='post-date'>{{date}}</text>
+          <image class='post-author'src='{{item.author}}'></image>
+          <text class='post-date'>{{item.date}}</text>
     </view>
-          <image class='post-images' src='{{post_img}}'></image>
-          <text class='post-content'>{{content}}</text>
+          <image class='post-images' src='{{imgSrc}}'></image>
+          <text class='post-content'>{{item.content}}</text>
     <view class='post-like'>
           <image class='post-like-image' src='../../images/icon/read.png'></image>
-          <text class='post-linke-font'>{{view_num}}</text>
+          <text class='post-linke-font'>{{item.reading}}</text>
 
           <image class='post-like-image' src='../../images/icon/collect.png'></image>
-          <text class='post-linke-font'>{{collect_num}}</text>
+          <text class='post-linke-font'>{{item.collect}}</text>
 
           <image class='post-like-image' src='../../images/icon/comment.png'></image>
-          <text class='post-linke-font'>{{comment}}</text>
+          <text class='post-linke-font'>{{item.comment}}</text>
     </view>
 </view>  
+</block>
 
-
-<view class='post-containet'>
-    <view class='post-author-data'>
-          <image class='post-author'src='{{author_img}}'></image>
-          <text class='post-date'>{{date}}</text>
-    </view>
-          <image class='post-images' src='{{post_img}}'></image>
-          <text class='post-content'>{{content}}</text>
-    <view class='post-like'>
-          <image class='post-like-image' src='../../images/icon/read.png'></image>
-          <text class='post-linke-font'>{{view_num}}</text>
-
-          <image class='post-like-image' src='../../images/icon/collect.png'></image>
-          <text class='post-linke-font'>{{collect_num}}</text>
-
-          <image class='post-like-image' src='../../images/icon/comment.png'></image>
-          <text class='post-linke-font'>{{comment}}</text>
-    </view>
-</view>  
 
