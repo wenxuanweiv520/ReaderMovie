@@ -6,7 +6,8 @@ var local_database = [
     reading: "269",
     collect: "189",
     comment: "569",
-    avatar: "/images/avatar.png"
+    avatar: "/images/avatar.png",
+    postId:0
   },
   {
     date: "Sep 22 2017",
@@ -15,7 +16,8 @@ var local_database = [
     reading: "269",
     collect: "289",
     comment: "460",
-    avatar: "/images/avatar.png"
+    avatar: "/images/avatar.png",
+    postId: 1
   },
   {
     date: "Sep 22 2017",
@@ -24,7 +26,8 @@ var local_database = [
     reading: "369",
     collect: "159",
     comment: "860",
-    avatar: "/images/avatar.png"
+    avatar: "/images/avatar.png",
+    postId: 2
   },
   {
     date: "Sep 22 2017",
@@ -33,7 +36,8 @@ var local_database = [
     reading: "376",
     collect: "79",
     comment: "119",
-    avatar: "/images/avatar.png"
+    avatar: "/images/avatar.png",
+    postId: 3
   }
 ]
 

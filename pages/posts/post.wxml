@@ -15,7 +15,9 @@
 
   <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="idx"> 
      <!--Template引用-->
-     <template is="post-Item" data="{{item}}"/>
+     <view catchtap="onPostTap" data-postId="{{item.postId}}">
+        <template is="post-Item" data="{{item}}"/>
+     </view>
   </block>
   
 </view>
